@@ -1,0 +1,37 @@
+.row{
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 450ms;
+}
+.poster:hover{
+    transform: scale(1.09);
+}
+
+.smallPoster{
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 450ms;
+}
+
+.smallPoster:hover{
+    transform: scale(1.09);
+}
